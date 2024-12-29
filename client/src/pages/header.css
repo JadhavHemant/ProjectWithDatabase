@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+header {
+  background-color: #fafbfc;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 6px rgba(241, 245, 249, 0.805);
+}
+
+.logo img {
+  width: 100px;
+  height: auto;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav a {
+  color: rgb(181, 19, 19);
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 55px;
+  margin-left: 15px;
+  font-family: "Poppins";
+}
+
+nav a:hover {
+  background-color: #3386ff;
+}
+.dropdown {
+  float: left;
+  align-self: auto;
+  margin-left: 65%;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: 3386ff;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: "Poppins";
+  margin: 0;
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+  background-color: 3386ff;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}

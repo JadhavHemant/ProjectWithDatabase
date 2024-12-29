@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+footer {
+  background-color: #fafbfc;
+  color: rgb(0, 0, 0);
+  padding: 1px;
+  text-align: center;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  box-shadow: 0 -6px rgba(241, 245, 249, 0.805);
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+nav a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-family: "Poppins";
+}
+
+nav a:hover {
+  background-color: #0056b3;
+}

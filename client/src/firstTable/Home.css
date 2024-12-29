@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+.styled-table {
+  border-collapse: collapse;
+  margin: auto;
+  font-size: 0.9em;
+  font-family: "Poppins";
+  max-width: auto;
+  box-shadow: 0 17px rgba(1, 119, 237, 0.805);
+}
+.styled-table thead tr {
+  background-color: #3386ff;
+  color: #ffffff;
+  text-align: left;
+}
+.styled-table th,
+.styled-table td {
+  padding: 12px 12px;
+}
+
+.styled-table tbody tr {
+  border-bottom: 1px solid #4f8dd8;
+}
+.styled-table tbody tr:nth-of-type(even) {
+  background-color: #cddfe4;
+}
+.styled-table tbody tr:last-of-type {
+  border-bottom: 2px solid #058daf;
+}
+.btn {
+  font-family: "Poppins";
+  border: none;
+  color: rgb(255, 255, 255);
+  padding: 5px 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 5px;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+.btn-edit {
+  background-color: #3386ff;
+  opacity: 75;
+}
+.btn-delete {
+  background-color: #57a5e6;
+}
+.btn-view {
+  background-color: #4987f2;
+  color: black;
+}
+.btn-contact {
+  background-color: #3385ffdf;
+  margin-bottom: 10px;
+
+}
+

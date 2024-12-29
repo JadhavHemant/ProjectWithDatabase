@@ -1,0 +1,43 @@
+.box-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px; /* Optional: Add margin between box containers */
+  }
+  
+  .box1, .box2, .box3, .box4 {
+    width: 45%;
+    border: 2px solid lightgrey;
+    padding: 30px;
+    box-sizing: border-box;
+  }
+  
+  .box1 input,
+  .box2 input,
+  .box3 input,
+  .box4 input,
+  .box1 textarea,
+  .box2 textarea,
+  .box3 textarea,
+  .box4 textarea,
+  .box1 button,
+  .box2 button,
+  .box3 button,
+  .box4 button {
+    width: 80%;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  
+  input[type="submit"] {
+    width: 100%;
+    background-color: #3386ff;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  input[type="submit"]:hover {
+    background-color: #0c5ca8;
+  }

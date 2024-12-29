@@ -1,0 +1,26 @@
+/* AIMaster.css */
+.aimaster-container {
+    text-align: center;
+    margin: 50px;
+}
+
+.link-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+}
+
+.link-list li {
+    margin: 20px; /* Adjust the margin for spacing between list items */
+}
+
+.link-list a {
+    padding: 10px 20px; 
+    border-radius: 5px;
+    color:rgb(45, 43, 43);
+   
+    
+}
+
+
